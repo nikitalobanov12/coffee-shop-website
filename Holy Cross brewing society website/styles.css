@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+body {
+  font-size: 150%;
+  font-family: "Nanum Gothic", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  padding-top: 110px;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 99;
+}
+
+#FindUs {
+  scroll-margin-top: 9vh;
+  text-align: center;
+  font-style: italic;
+  font-size: 150%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  float: right;
+}
+.about-us {
+  margin: 1rem;
+}
+
+#headerImage {
+  height: 7vh;
+}
+.headerleftside {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+.MainLogo {
+  height: 10vh;
+}
+
+#mainInfo {
+  scroll-margin-top: 9vh;
+}
+.first-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.Title {
+  margin: 1rem;
+}
+.swiper-wrapper{
+  display: flex;
+  align-items: center;
+}
+.swiper-slide {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.swiper{
+width: auto;
+}
+img{
+  max-width: 100%;
+  max-height: 60vh;
+  height: auto;
+  width: auto;
+}
+.swiper-button-next {
+  color: black !important;
+  
+
+}
+.swiper-button-prev {
+  color: black !important;
+position: relative;
+}
+
+#AboutUs{
+scroll-margin-top: 9vh;
+text-align: center;
+font-size: 150%;
+font-style: italic;
+}
+
+.AboutUsParagraph{
+text-align: center;
+}
+.MapAndAdressBox{
+  text-align: center;
+
+}
+iframe{
+  width: 100%;
+  height: 60vh;
+  margin-top: 3px;
+}
+.iglogo{
+  scale: 50%;
+}
+footer{
+  display: flex;justify-content: center;align-items: center;
+}
+
+
